@@ -36,7 +36,7 @@ namespace Bot_Application1.Dialogs
         {
             var activity = await result as Activity;
 
-            await context.PostAsync("有任何需要再和我說");
+            await context.PostAsync("88");
 
             context.Wait(MessageReceivedAsync);
         }
